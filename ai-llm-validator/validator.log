@@ -1,0 +1,20 @@
+2026-02-18 18:51:26 | INFO     | core.pipeline | ============================================================
+2026-02-18 18:51:26 | INFO     | core.pipeline | Starting validation pipeline
+2026-02-18 18:51:26 | INFO     | core.pipeline | Question: Where is the Eiffel Tower located?
+2026-02-18 18:51:26 | INFO     | core.pipeline | LLM output length: 193 chars
+2026-02-18 18:51:26 | INFO     | core.retriever | Building FAISS index from C:\Users\harsh\Desktop\AI System to Detect Hallucinations\ai-llm-validator\data\sample_knowledge_base.json …
+2026-02-18 18:51:26 | INFO     | core.retriever | Knowledge base contains 20 passages.
+2026-02-18 18:51:26 | INFO     | models.embedding_model | Loading embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-02-18 18:51:31 | INFO     | models.embedding_model | Embedding model loaded successfully.
+2026-02-18 18:51:31 | INFO     | core.retriever | FAISS index built: 20 vectors, dim=384.
+2026-02-18 18:51:31 | INFO     | core.claim_extractor | Loading spaCy model: en_core_web_sm
+2026-02-18 18:51:32 | INFO     | core.claim_extractor | spaCy model loaded successfully.
+2026-02-18 18:51:32 | INFO     | core.claim_extractor | Extracted 3 claims from text (193 chars).
+2026-02-18 18:51:32 | INFO     | core.pipeline | Claims extracted: 3
+2026-02-18 18:51:32 | INFO     | models.nli_model | Loading NLI model: roberta-large-mnli (device=cpu)
+2026-02-18 18:54:29 | INFO     | models.nli_model | NLI model loaded successfully.
+2026-02-18 18:54:32 | INFO     | models.bias_model | Loading bias/sentiment model: distilbert-base-uncased-finetuned-sst-2-english
+2026-02-18 18:55:41 | INFO     | models.bias_model | Bias/sentiment model loaded successfully.
+2026-02-18 18:55:41 | INFO     | core.bias_analyzer | Bias analysis: score=0.001  risk=Low
+2026-02-18 18:55:41 | INFO     | core.trust_scorer | Trust score: 74.3 / 100  (Trusted)  [fact=0.83  ev=0.83  bias=0.00]
+2026-02-18 18:55:41 | INFO     | core.pipeline | Pipeline complete in 255.03 s — Trust Score: 74.3 / 100

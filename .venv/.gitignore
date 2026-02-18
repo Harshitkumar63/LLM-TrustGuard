@@ -1,0 +1,59 @@
+*@"
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+validator.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Model Cache (HuggingFace models are large)
+.cache/
+models/
+*.pt
+*.bin
+*.safetensors
+
+# Results
+evaluation/results/*.json
+
+# Temporary
+.tmp/
+temp/
+"@ | Out-File -FilePath .gitignore -Encoding utf8

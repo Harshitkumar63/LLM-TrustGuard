@@ -1,0 +1,122 @@
+[
+  {
+    "id": "fever_001",
+    "claim": "The Eiffel Tower is located in Berlin, Germany.",
+    "label": "REFUTES",
+    "evidence": "The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France."
+  },
+  {
+    "id": "fever_002",
+    "claim": "Albert Einstein received the Nobel Prize in Physics in 1921.",
+    "label": "SUPPORTS",
+    "evidence": "He received the Nobel Prize in Physics in 1921 for his explanation of the photoelectric effect."
+  },
+  {
+    "id": "fever_003",
+    "claim": "The Great Wall of China was built entirely during the Qing Dynasty.",
+    "label": "REFUTES",
+    "evidence": "Several walls were built from as early as the 7th century BCE. The most well-known sections were built by the Ming Dynasty (1368–1644)."
+  },
+  {
+    "id": "fever_004",
+    "claim": "Python was created by Guido van Rossum.",
+    "label": "SUPPORTS",
+    "evidence": "Python was conceived in the late 1980s by Guido van Rossum at Centrum Wiskunde & Informatica (CWI) in the Netherlands."
+  },
+  {
+    "id": "fever_005",
+    "claim": "The Amazon River is the smallest river in the world.",
+    "label": "REFUTES",
+    "evidence": "The Amazon River is the largest river by discharge volume of water in the world."
+  },
+  {
+    "id": "fever_006",
+    "claim": "The Moon orbits Earth at an average distance of 384,400 km.",
+    "label": "SUPPORTS",
+    "evidence": "It orbits at an average distance of 384,400 km (238,900 mi)."
+  },
+  {
+    "id": "fever_007",
+    "claim": "DNA stands for deoxyribonucleic acid.",
+    "label": "SUPPORTS",
+    "evidence": "DNA, or deoxyribonucleic acid, is a molecule composed of two polynucleotide chains that coil around each other to form a double helix."
+  },
+  {
+    "id": "fever_008",
+    "claim": "Climate change is caused by natural cycles and not by human activities.",
+    "label": "REFUTES",
+    "evidence": "Human activities have been the main driver of climate change since the 1800s, primarily due to the burning of fossil fuels."
+  },
+  {
+    "id": "fever_009",
+    "claim": "The US Declaration of Independence was signed in 1776.",
+    "label": "SUPPORTS",
+    "evidence": "The United States Declaration of Independence was adopted by the Second Continental Congress on July 4, 1776."
+  },
+  {
+    "id": "fever_010",
+    "claim": "Water covers approximately 71% of the Earth's surface.",
+    "label": "SUPPORTS",
+    "evidence": "Water covers about 71% of the Earth's surface."
+  },
+  {
+    "id": "fever_011",
+    "claim": "The Sun is powered by chemical combustion reactions.",
+    "label": "REFUTES",
+    "evidence": "It is a nearly perfect ball of hot plasma, heated to incandescence by nuclear fusion reactions in its core."
+  },
+  {
+    "id": "fever_012",
+    "claim": "Shakespeare was born in London, England.",
+    "label": "REFUTES",
+    "evidence": "He was born in Stratford-upon-Avon in 1564."
+  },
+  {
+    "id": "fever_013",
+    "claim": "Photosynthesis converts light energy into chemical energy.",
+    "label": "SUPPORTS",
+    "evidence": "Photosynthesis is a process used by plants and other organisms to convert light energy into chemical energy."
+  },
+  {
+    "id": "fever_014",
+    "claim": "The human brain has approximately 86 billion neurons.",
+    "label": "SUPPORTS",
+    "evidence": "The human brain contains approximately 86 billion neurons."
+  },
+  {
+    "id": "fever_015",
+    "claim": "The speed of light is about 150,000 km/s.",
+    "label": "REFUTES",
+    "evidence": "The speed of light in vacuum is exactly 299,792,458 metres per second (approximately 300,000 km/s)."
+  },
+  {
+    "id": "fever_016",
+    "claim": "The modern Olympic Games were first held in Paris in 1900.",
+    "label": "REFUTES",
+    "evidence": "The modern Olympics were revived in Athens in 1896 by Pierre de Coubertin."
+  },
+  {
+    "id": "fever_017",
+    "claim": "Isaac Newton formulated the law of universal gravitation.",
+    "label": "SUPPORTS",
+    "evidence": "Isaac Newton formulated the law of universal gravitation in 1687."
+  },
+  {
+    "id": "fever_018",
+    "claim": "The Pacific Ocean is smaller than the Atlantic Ocean.",
+    "label": "REFUTES",
+    "evidence": "The Pacific Ocean is the largest and deepest of Earth's five oceanic divisions."
+  },
+  {
+    "id": "fever_019",
+    "claim": "Machine learning is a subset of artificial intelligence.",
+    "label": "SUPPORTS",
+    "evidence": "Machine learning is a subset of artificial intelligence that provides systems the ability to automatically learn and improve from experience."
+  },
+  {
+    "id": "fever_020",
+    "claim": "The Mona Lisa was painted by Michelangelo.",
+    "label": "REFUTES",
+    "evidence": "The Mona Lisa is a half-length portrait painting by Italian artist Leonardo da Vinci."
+  }
+]
