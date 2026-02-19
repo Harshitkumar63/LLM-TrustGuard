@@ -18,7 +18,7 @@ A **production-grade, modular Python system** that evaluates Large Language Mode
 
 ---
 
-## 🧩 Problem Statement
+ Problem Statement
 
 Large Language Models (GPT-4, Claude, Llama, etc.) can generate fluent, convincing text that contains **factual errors** (hallucinations) or **biased framing**.  When these outputs reach end-users without verification, trust erodes and real harm can follow—especially in healthcare, legal, and educational applications.
 
