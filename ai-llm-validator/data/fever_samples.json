@@ -4,7 +4,7 @@
     "claim": "The Eiffel Tower is located in Berlin, Germany.",
     "label": "REFUTES",
     "evidence": "The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France."
-  },
+  }, 
   {
     "id": "fever_002",
     "claim": "Albert Einstein received the Nobel Prize in Physics in 1921.",
