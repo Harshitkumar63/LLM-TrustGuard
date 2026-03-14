@@ -9,7 +9,7 @@ A **production-grade, modular Python system** that evaluates Large Language Mode
 1. [Problem Statement](#problem-statement)  
 2. [Architecture](#architecture)  
 3. [Project Structure](#project-structure)  
-4. [Setup Instructions](#setup-instructions)  
+4. [Setup Instructions](#setup-instructions)
 5. [How to Run](#how-to-run)  
 6. [Example Output](#example-output)  
 7. [Evaluation](#evaluation)  
